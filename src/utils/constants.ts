@@ -3,10 +3,10 @@ export const ROUTERS = [
     text: "About",
     path: "about",
   },
-  {
-    text: "Certification",
-    path: "certification",
-  },
+  // {
+  //   text: "Certification",
+  //   path: "certification",
+  // },
   {
     text: "Skill",
     path: "skill",
