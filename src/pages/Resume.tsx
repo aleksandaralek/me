@@ -8,6 +8,7 @@ export default function Resume() {
       <Document file={ResumePDF}>
         <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false} width={1000} />
         <Page pageNumber={2} renderTextLayer={false} renderAnnotationLayer={false} width={1000} />
+        <Page pageNumber={3} renderTextLayer={false} renderAnnotationLayer={false} width={1000} />
       </Document>
     </div>
   )

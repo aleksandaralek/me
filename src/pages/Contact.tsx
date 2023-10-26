@@ -1,6 +1,6 @@
 import { Card, CardBody, CardHeader } from "@nextui-org/react"
 import { LiaHackerrank } from "react-icons/lia";
-import { RiMailLine, RiSkypeLine, RiTelegramLine, RiGithubLine } from "react-icons/ri"
+import { RiMailLine, RiSkypeLine, RiTelegramLine, RiGithubLine, RiLinkedinLine } from "react-icons/ri"
 
 export default function Contact() {
   return (
@@ -13,55 +13,66 @@ export default function Contact() {
               <div className="flex gap-4">
                 <RiMailLine className="text-2xl" />
                 <a
-                  href="mailto:luckydevn16@gmail.com"
+                  href="mailto:aleksandardeveoper@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  luckydevn16@gmail.com
+                  aleksandardeveoper@gmail.com
+                </a>
+              </div>
+
+              <div className="flex gap-4">
+                <RiLinkedinLine className="text-2xl" />
+                <a
+                  href="https://www.linkedin.com/in/aleksandar-aleksic-2136a9277/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Aleksandar Aleksic
                 </a>
               </div>
 
               <div className="flex gap-4">
                 <RiSkypeLine className="text-2xl" />
                 <a
-                  href="https://join.skype.com/invite/vrb1Ds8a7YFK"
+                  href="https://join.skype.com/invite/yPZq4HNIHd2U"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Lucky DevN16
+                  Aleksandar Aleksic
                 </a>
               </div>
 
               <div className="flex gap-4">
                 <RiTelegramLine className="text-2xl" />
                 <a
-                  href="https://t.me/luckydevn16"
+                  href="https://t.me/aleksandar_aleksic"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Lucky DevN16
+                  Aleksandar Aleksic
                 </a>
               </div>
 
               <div className="flex gap-4">
                 <RiGithubLine className="text-2xl" />
                 <a
-                  href="https://github.com/luckydevn16"
+                  href="https://github.com/aleksandaralek"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  github.com/luckydevn16
+                  github.com/aleksandaralek
                 </a>
               </div>
 
               <div className="flex gap-4">
                 <LiaHackerrank className="text-2xl" />
                 <a
-                  href="https://www.hackerrank.com/luckydevn16"
+                  href="https://www.hackerrank.com/profile/aleksandardeveo1"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  hackerrank.com/luckydevn16
+                  hackerrank.com/aleksandardeveo1
                 </a>
               </div>
             </div>
